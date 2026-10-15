@@ -1,0 +1,8 @@
+.git
+.github
+model/
+__pycache__/
+*.pyc
+.venv/
+venv/
+screenshots/
