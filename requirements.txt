@@ -1,0 +1,9 @@
+# Training and serving share these pins: a joblib model must be loaded
+# with the same scikit-learn version it was trained with.
+scikit-learn==1.5.2
+numpy==1.26.4
+joblib==1.4.2
+flask==3.0.3
+gunicorn==23.0.0
+google-cloud-storage==2.18.2
+google-cloud-bigquery==3.26.0
