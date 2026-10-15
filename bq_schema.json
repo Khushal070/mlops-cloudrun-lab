@@ -1,0 +1,9 @@
+[
+  {"name": "request_id", "type": "STRING", "mode": "REQUIRED"},
+  {"name": "ts", "type": "TIMESTAMP", "mode": "REQUIRED"},
+  {"name": "model_version", "type": "STRING", "mode": "REQUIRED"},
+  {"name": "n_instances", "type": "INTEGER", "mode": "REQUIRED"},
+  {"name": "n_malignant", "type": "INTEGER", "mode": "REQUIRED"},
+  {"name": "mean_prob_malignant", "type": "FLOAT", "mode": "REQUIRED"},
+  {"name": "latency_ms", "type": "FLOAT", "mode": "REQUIRED"}
+]
